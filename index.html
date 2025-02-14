@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My todo-list</title>
+    <link rel="stylesheet" href="./s.css" />
+    <script type="module" src="./script.js" defer></script>
+    <script type="module" src="./toggle.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="title">My to-do list</h1>
+      <button id="theme-toggle">
+        <span id="theme-icon">🌙</span>
+      </button>
+      <form class="form-content" id="task-form">
+        <input
+          class="form-input"
+          type="text"
+          id="task-input"
+          placeholder="Додати завдання..."
+          required
+        />
+        <button class="form-btn" type="submit">Додати</button>
+      </form>
+
+      <ul id="task-list"></ul>
+    </div>
+  </body>
+</html>

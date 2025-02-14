@@ -1,0 +1,20 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viktor-Baratej/TODO-LIST.git"
+  },
+  "keywords": [],
+  "author": "Viktor Baratej <Viktor_baratejj@ukr.net>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Viktor-Baratej/TODO-LIST/issues"
+  },
+  "homepage": "https://github.com/Viktor-Baratej/TODO-LIST#readme"
+}
