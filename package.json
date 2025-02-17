@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Viktor-Baratej/TODO-LIST/issues"
   },
-  "homepage": "https://github.com/Viktor-Baratej/TODO-LIST#readme"
+  "homepage": "https://github.com/Viktor-Baratej/TODO-LIST#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.7.2"
+  }
 }

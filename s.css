@@ -50,21 +50,37 @@ body {
   text-decoration: underline;
   color: rgb(70, 47, 18);
 }
+
+/* Контейнер для іконки та інпуту */
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Іконка всередині інпуту */
+.input-container i {
+  position: absolute;
+  left: 20px; /* Відступ від лівого краю */
+  color: rgb(70, 47, 18);
+  font-size: 20px;
+}
+
 .form-content {
   display: flex;
   gap: 30px;
 }
+
 .form-input {
-  padding: 15px;
+  padding: 15px 15px 15px 45px;
   border-radius: 10px;
   border: none;
-  /* box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); */
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3);
-
   color: rgb(70, 47, 18);
   font-size: 30px;
   background-color: bisque;
 }
+
 ::placeholder {
   color: rgb(70, 47, 18);
   font-size: 20px;
@@ -113,7 +129,7 @@ body {
   color: #e0c9a6;
 }
 
-.dark-theme .form-input {
+.dark-theme .form-input .input-container i {
   background-color: #4a2e19;
   color: #f5deb3;
   box-shadow: inset 5px 5px 10px rgba(255, 255, 255, 0.1);

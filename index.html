@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My todo-list</title>
     <link rel="stylesheet" href="./s.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+
     <script type="module" src="./script.js" defer></script>
     <script type="module" src="./toggle.js" defer></script>
   </head>
@@ -14,14 +19,18 @@
       <button id="theme-toggle">
         <span id="theme-icon">🌙</span>
       </button>
+
       <form class="form-content" id="task-form">
-        <input
-          class="form-input"
-          type="text"
-          id="task-input"
-          placeholder="Додати завдання..."
-          required
-        />
+        <div class="input-container">
+          <i class="fa-solid fa-clipboard-list"></i>
+          <input
+            class="form-input"
+            type="text"
+            id="task-input"
+            placeholder="Додати завдання..."
+            required
+          />
+        </div>
         <button class="form-btn" type="submit">Додати</button>
       </form>
 
