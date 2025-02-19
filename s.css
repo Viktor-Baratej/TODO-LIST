@@ -61,7 +61,8 @@ body {
 /* Іконка всередині інпуту */
 .input-container i {
   position: absolute;
-  left: 20px; /* Відступ від лівого краю */
+  left: 20px;
+  top: 23.5px;
   color: rgb(70, 47, 18);
   font-size: 20px;
 }
